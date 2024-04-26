@@ -1,3 +1,5 @@
 ,Valor,Efetuado,Fixo,Data,Categoria,Descrição
-1,60.0,1,1,2024-04-10,Saúde,Fármacia
-1,1200.0,1,1,2024-04-03,Aluguel,Aluguel
+0,1200.0,1,1,2024-04-04,Aluguel,Aluguel
+1,800.0,1,1,2024-04-06,Mercado,Mercado Mensal
+2,60.0,1,1,2024-04-18,Saúde,Farmácia
+3,60.0,1,1,2024-04-18,Transporte,Uber para o hospital

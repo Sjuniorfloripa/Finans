@@ -274,7 +274,7 @@ def salve_form_despesa(n, descricao, valor, date, switches, categoria, dict_desp
         recebido = 1 if 1 in switches else 0
         fixo = 1 if 1 in switches else 0
         
-        df_despesas.loc[df_receitas.shape[0]] = [valor, recebido, fixo, date, categoria, descricao]
+        df_despesas.loc[df_despesas.shape[0]] = [valor, recebido, fixo, date, categoria, descricao]
         df_despesas.to_csv('df_despesas.csv')
     data_return = df_despesas.to_dict()
     return data_return
